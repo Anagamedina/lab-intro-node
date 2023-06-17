@@ -20,7 +20,7 @@ describe("SortedList", () => {
       list = new SortedList();
     });
     it("should add a single value to SortedList", () => {
-      assert.equal(list.length, 0);
+      assert.equal(list.length, 0); 
       list.add(1);
       assert.equal(list.length, 1);
     });
